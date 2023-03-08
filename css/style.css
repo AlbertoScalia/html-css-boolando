@@ -169,3 +169,48 @@ h2{
     color: black;
     text-decoration:line-through;
 }
+
+
+/* Footer */
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+
+.footer-contenitore{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.social li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+h3, h4{
+    color: white;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 14px;
+    text-transform: normal;
+}
+
+h4{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+footer a:hover {
+    color: #ff6900;
+}
