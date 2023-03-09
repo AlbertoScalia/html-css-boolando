@@ -32,12 +32,8 @@ header {
     padding: 10px;
 }
 
-.menu {
-    display: flex;
-    color: white;
-}
 
-.menu li {
+header li {
     list-style: none;
     flex-direction: row;
     padding: 0 10px;
